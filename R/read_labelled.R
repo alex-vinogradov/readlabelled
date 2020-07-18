@@ -1,5 +1,5 @@
 #' Imports data frame from Excel file with variable labels
-#' @param file Excel workbook with two sheets
+#' @param file Excel workbook with two sheets: for data and dictionary
 #' @param data.sheet Name or number of sheet that contains data
 #' @param vars.sheet Name or number of sheet that contains data dictionary
 #' @examples

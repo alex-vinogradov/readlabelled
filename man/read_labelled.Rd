@@ -7,7 +7,7 @@
 read_labelled(file, data.sheet = 1, vars.sheet = 2)
 }
 \arguments{
-\item{file}{Excel workbook with two sheets}
+\item{file}{Excel workbook with two sheets: for data and dictionary}
 
 \item{data.sheet}{Name or number of sheet that contains data}
 
