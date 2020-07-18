@@ -1,0 +1,4 @@
+importFrom(haven,labelled)
+importFrom(jsonlite,fromJSON)
+importFrom(readxl,read_excel)
+export(read_labelled)
