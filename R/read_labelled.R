@@ -5,6 +5,7 @@
 #' @examples
 #' # read_labelled("example.xlsx")
 #' # read_labelled("example.xlsx", "Data View", "Variable View")
+#' @export
 read_labelled <- function(file, data.sheet = 1, vars.sheet = 2) {
   data <- readxl::read_excel(file, sheet = data.sheet)
   vars <- readxl::read_excel(file, sheet = vars.sheet)
