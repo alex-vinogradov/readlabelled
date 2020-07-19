@@ -1,7 +1,7 @@
-#' Импортирует данные из Excel файла с метками переменных и значений
-#' @param file Имя файла Excel с двумя листами: для данных и словаря
-#' @param data.sheet Имя или номер листа книги, содержащего табличные данные
-#' @param vars.sheet Имя или номер листа книги, содержащего словарь
+#' Imports Data Frame from Excel File with Variable and Value Labels
+#' @param file Excel workbook with two sheets: for data and dictionary
+#' @param data.sheet Name or number of sheet that contains data
+#' @param vars.sheet Name or number of sheet that contains data dictionary
 #' @examples
 #' # read_labelled("example.xlsx")
 #' # read_labelled("example.xlsx", "Data View", "Variable View")

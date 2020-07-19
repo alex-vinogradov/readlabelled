@@ -2,19 +2,19 @@
 % Please edit documentation in R/read_labelled.R
 \name{read_labelled}
 \alias{read_labelled}
-\title{Импортирует данные из Excel файла с метками переменных и значений}
+\title{Imports Data Frame from Excel File with Variable and Value Labels}
 \usage{
 read_labelled(file, data.sheet = 1, vars.sheet = 2)
 }
 \arguments{
-\item{file}{Имя файла Excel с двумя листами: для данных и словаря}
+\item{file}{Excel workbook with two sheets: for data and dictionary}
 
-\item{data.sheet}{Имя или номер листа книги, содержащего табличные данные}
+\item{data.sheet}{Name or number of sheet that contains data}
 
-\item{vars.sheet}{Имя или номер листа книги, содержащего словарь}
+\item{vars.sheet}{Name or number of sheet that contains data dictionary}
 }
 \description{
-Импортирует данные из Excel файла с метками переменных и значений
+Imports Data Frame from Excel File with Variable and Value Labels
 }
 \examples{
 # read_labelled("example.xlsx")
